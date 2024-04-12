@@ -1,0 +1,63 @@
+footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+  }
+
+.wrapper {
+    display: inline-block;
+    transform: translate(0%, 0%);
+    margin: 0 auto;
+
+}
+
+.wrapper ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.wrapper ul li {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid black;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li .fa {
+    color: black;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover.whatsapp{
+    border: 5px solid violet;
+    box-shadow: 0 0 15px violet;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp{
+    color: violet;
+    text-shadow: 0 0 15px violet;
+    transition: all 0.5s ease;
+
+}
+
+.wrapper ul li:hover.instagram{
+    border: 5px solid violet;
+    box-shadow: 0 0 15px violet;
+    transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram{
+    color: violet;
+    text-shadow: 0 0 15px violet;
+    transition: all 0.5s ease;
+
+}
+
